@@ -1,0 +1,220 @@
+{
+  "Entities": [
+    {
+      "Id": 14,
+      "BeginOffset": 14,
+      "EndOffset": 18,
+      "Score": 0.9693079590797424,
+      "Text": "back",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 14,
+      "EndOffset": 23,
+      "Score": 0.8824260830879211,
+      "Text": "back pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "SYMPTOM", "Score": 0.6002758741378784 }]
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 39,
+      "EndOffset": 47,
+      "Score": 0.36933448910713196,
+      "Text": "overdose",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 53,
+      "EndOffset": 57,
+      "Score": 0.9679442048072815,
+      "Text": "back",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 7,
+      "BeginOffset": 53,
+      "EndOffset": 62,
+      "Score": 0.9461023807525635,
+      "Text": "back pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        { "Name": "SYMPTOM", "Score": 0.48634961247444153 },
+        { "Name": "DIAGNOSIS", "Score": 0.46367347240448 }
+      ]
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 91,
+      "EndOffset": 95,
+      "Score": 0.9929292798042297,
+      "Text": "rash",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        { "Name": "SIGN", "Score": 0.4903617799282074 },
+        { "Name": "SYMPTOM", "Score": 0.5880917310714722 }
+      ]
+    },
+    {
+      "Id": 16,
+      "BeginOffset": 111,
+      "EndOffset": 114,
+      "Score": 0.9714825749397278,
+      "Text": "ear",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 111,
+      "EndOffset": 119,
+      "Score": 0.8708082437515259,
+      "Text": "ear pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "SYMPTOM", "Score": 0.601948618888855 }]
+    },
+    {
+      "Id": 17,
+      "BeginOffset": 133,
+      "EndOffset": 138,
+      "Score": 0.9929754734039307,
+      "Text": "chest",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 133,
+      "EndOffset": 143,
+      "Score": 0.8352675437927246,
+      "Text": "chest pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "SYMPTOM", "Score": 0.7109066843986511 }]
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 156,
+      "EndOffset": 167,
+      "Score": 0.43579480051994324,
+      "Text": "fever fever",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "SYMPTOM", "Score": 0.7976899743080139 }]
+    },
+    {
+      "Id": 18,
+      "BeginOffset": 181,
+      "EndOffset": 186,
+      "Score": 0.9922090768814087,
+      "Text": "chest",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 12,
+      "BeginOffset": 181,
+      "EndOffset": 191,
+      "Score": 0.824698269367218,
+      "Text": "chest pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "SYMPTOM", "Score": 0.6571976542472839 }]
+    },
+    {
+      "Id": 1,
+      "BeginOffset": 181,
+      "EndOffset": 191,
+      "Score": 0.6154695153236389,
+      "Text": "chest pain",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "TEST_VALUE",
+          "Score": 0.9781054854393005,
+          "RelationshipScore": 0.9999840259552002,
+          "Id": 2,
+          "BeginOffset": 192,
+          "EndOffset": 193,
+          "Text": "8",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "BeginOffset": 210,
+      "EndOffset": 215,
+      "Score": 0.4658072590827942,
+      "Text": "intox",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "TEST_VALUE",
+          "Score": 0.9791427850723267,
+          "RelationshipScore": 0.9999605417251587,
+          "Id": 4,
+          "BeginOffset": 216,
+          "EndOffset": 217,
+          "Text": "9",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 235,
+      "EndOffset": 239,
+      "Score": 0.8737228512763977,
+      "Text": "fall",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "SYMPTOM", "Score": 0.6582866311073303 }]
+    }
+  ],
+  "UnmappedAttributes": [
+    {
+      "Type": "TEST_TREATMENT_PROCEDURE",
+      "Attribute": {
+        "Type": "TEST_VALUE",
+        "Score": 0.39834123849868774,
+        "Id": 0,
+        "BeginOffset": 0,
+        "EndOffset": 1,
+        "Text": "0",
+        "Traits": []
+      }
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "b05b3e6e-0408-11e9-be2d-0757d81fd362",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "content-type": "application/x-amz-json-1.1",
+      "date": "Thu, 20 Dec 2018 03:38:17 GMT",
+      "x-amzn-requestid": "b05b3e6e-0408-11e9-be2d-0757d81fd362",
+      "content-length": "3343",
+      "connection": "keep-alive"
+    },
+    "RetryAttempts": 0
+  }
+}
