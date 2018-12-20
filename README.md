@@ -6,6 +6,10 @@ Using Scott Lee's public data sets from <https://gitlab.com/gte577z/ml-workshop>
 
 Question- how does CM diagnosis compare to process that generated these codes using the process described in [Scott's paper](https://www.nature.com/articles/s41746-018-0070-0)? Using the set of 42,364 synthetic chief complaints and HCUP CCS diagnosis codes.
 
+## Requirements
+
+Remember to [configure your local environment](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html#cli-quick-configuration) with an aws access key, secret key, and default region. Entire exploration done using free tier (thanks AWS) and in the us-east-1 region, although I don't think that matters.
+
 ## References
 
 [CCS Users Guide with descriptions of 259 diagnosis categories](https://www.hcup-us.ahrq.gov/toolssoftware/ccs/CCSUsersGuide.pdf)
