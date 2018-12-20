@@ -4,7 +4,7 @@ Running synthetic chief complaints through AWS Comprehend Medical.
 
 Using Scott Lee's public data sets from <https://gitlab.com/gte577z/ml-workshop>
 
-Question- how does CM diagnosis compare to process that generated these codes using the process described in [Scott's paper](https://www.nature.com/articles/s41746-018-0070-0)? Using the set of ~46k synthetic chief complaints and HCUP CCS diagnosis codes.
+Question- how does CM diagnosis compare to process that generated these codes using the process described in [Scott's paper](https://www.nature.com/articles/s41746-018-0070-0)? Using the set of 42,364 synthetic chief complaints and HCUP CCS diagnosis codes.
 
 ## References
 
@@ -16,5 +16,5 @@ Question- how does CM diagnosis compare to process that generated these codes us
 ## Screenshots
 
 ![Default Amazon Example Screenshot](/doc/amazon-example-screenshot.png)
-![Example input and insight screenshot from CM console using a synthetic chief complaint screenshot](doc/amazon-example-screenshot.png)
-![Example insight and results screenshot from CM console using same synthetic chief complaint](doc/synthetic-syndromic-example-screenshot.png)
+![Example input and insight screenshot from CM console using a synthetic chief complaint screenshot](doc/synthetic-syndromic-example-screenshot.png)
+![Example insight and results screenshot from CM console using same synthetic chief complaint](doc/synthetic-syndromic-example-results-screenshot.png)
