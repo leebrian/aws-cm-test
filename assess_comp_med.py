@@ -36,7 +36,7 @@ def load_cc_df():
 def call_aws(client):
     text = load_cc_df()
     print(text.describe())
-    for i in range(10000):
+    for i in range(30000):
         if (pandas.isnull(text.loc[i].result_file)):
             response = client.detect_entities(Text=text.loc[i].text)
             filename = str(i)+'-out.json'
