@@ -104,6 +104,6 @@ venv.bak/
 .mypy_cache/
 
 # data files that get pulled from gitlab
-dat/*
+dat/text.csv
 
 .DS_Store
