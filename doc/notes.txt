@@ -1,0 +1,32 @@
+Unique types ['SYSTEM_ORGAN_SITE', 'DX_NAME', 'ACUITY', 'DIRECTION', 'ID', 'PROCEDURE_NAME', 'TEST_NAME', 'TREATMENT_NAME', 'PHONE_OR_FAX', 'GENERIC_NAME', 'ADDRESS', 'BRAND_NAME', 'DATE', 'NAME', 'PROFESSION']
+Unique categories ['ANATOMY', 'MEDICAL_CONDITION', 'PROTECTED_HEALTH_INFORMATION', 'TEST_TREATMENT_PROCEDURE', 'MEDICATION']
+Unique trait names [('DX_NAME', 'MEDICAL_CONDITION', 'SYMPTOM'), ('DX_NAME', 'MEDICAL_CONDITION', 'DIAGNOSIS'), ('DX_NAME', 'MEDICAL_CONDITION', 'SIGN'), ('DX_NAME', 'MEDICAL_CONDITION', 'NEGATION')]
+acm text dataframe description 
+       aws-entity-count  aws-dx-count  aws-dx-score  aws-dx-trait-score  aws-sy-count  aws-sy-score  aws-sy-trait-score  aws-sign-count  aws-sign-score  aws-sign-trait-score
+count      42364.000000  42364.000000   8305.000000         8305.000000  42364.000000  24213.000000        24213.000000    42364.000000      513.000000            513.000000
+mean           1.460462      0.164220      0.790762            0.741683      0.515485      0.820858            0.591726        0.009725        0.769815              0.534948
+std            0.974703      0.370479      0.172464            0.156285      0.499766      0.168892            0.107680        0.098137        0.172458              0.096544
+min            0.000000      0.000000      0.230260            0.400433      0.000000      0.338714            0.400646        0.000000        0.300591              0.400011
+25%            1.000000      0.000000      0.681423            0.648012      0.000000      0.794311            0.502430        0.000000        0.645939              0.460895
+50%            1.000000      0.000000      0.844660            0.791933      1.000000      0.858608            0.585965        0.000000        0.821073              0.533165
+75%            2.000000      0.000000      0.947550            0.864900      1.000000      0.946120            0.707838        0.000000        0.879366              0.619609
+max            8.000000      1.000000      0.997867            0.981394      1.000000      0.998985            0.932299        1.000000        0.994059              0.896790
+Entity count frequency distribution 
+1    19008
+2    13278
+0     5267
+3     3682
+4      625
+5      300
+6      179
+7       13
+8       12
+Diagnosis count frequency distribution 
+0    35407
+1     6957
+Symptom count frequency distribution 
+1    21838
+0    20526
+Sign count frequency distribution 
+0    41952
+1      412

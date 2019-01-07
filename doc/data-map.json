@@ -3,7 +3,7 @@
         "data-source": "ML-Workshop-Synthetic-Chief-Complaints",
         "data-owner": "https://gitlab.com/gte577z",
         "data-custodian": "https://gitlab.com/gte577z",
-        "address": "https://gitlab.com/gte577z/ml-workshop/raw/master/dat/text.csv",
+        "address": "https://gitlab.com/gte577z/ml-workshop/raw/master/data/text.csv",
         "extract-date": "2018-12-20",
         "format": "CSV",
         "methods": "https://doi.org/10.1038/s41746-018-0070-0",
